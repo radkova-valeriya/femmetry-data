@@ -1,0 +1,874 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-04-14",
+  "cuisine_types": ["русская", "славянская", "европейская", "азиатская_адаптированная"],
+  "meals": [
+    {
+      "id": "soup_001",
+      "name": "Борщ классический",
+      "category": "soup",
+      "cuisine": "русская",
+      "description": "Наваристый свекольный суп на говяжьем бульоне",
+      "tags": ["traditional", "stores_well_3_4_days", "iron_rich", "freezable"],
+      "ingredients": ["говядина на кости", "свёкла", "капуста", "морковь", "лук", "картофель", "томатная паста", "чеснок", "лавровый лист"],
+      "nutrition_per_100g": { "kcal": 65, "protein": 4.5, "fat": 2.5, "carbs": 6.0 },
+      "serving_size_g": 300,
+      "prep_time_minutes": 90,
+      "storage_days": 4,
+      "freezable": true,
+      "adaptations": {
+        "gestational_diabetes": "без картофеля, без сахара, со сметаной",
+        "pregnancy_3_trimester": "уменьшить порцию до 200 мл, убрать жареные овощи"
+      }
+    },
+    {
+      "id": "soup_002",
+      "name": "Щи из свежей капусты",
+      "category": "soup",
+      "cuisine": "русская",
+      "description": "Классические щи на говяжьем или курином бульоне",
+      "tags": ["traditional", "stores_well_3_4_days", "freezable", "high_fiber"],
+      "ingredients": ["говядина или курица", "капуста белокочанная", "морковь", "лук", "картофель", "томатная паста", "зелень"],
+      "nutrition_per_100g": { "kcal": 55, "protein": 4.0, "fat": 2.0, "carbs": 5.0 },
+      "serving_size_g": 300,
+      "prep_time_minutes": 75,
+      "storage_days": 4,
+      "freezable": true,
+      "adaptations": {
+        "gestational_diabetes": "без картофеля, больше капусты",
+        "low_hemoglobin": "на говяжьем бульоне"
+      }
+    },
+    {
+      "id": "soup_003",
+      "name": "Куриная лапша (суп)",
+      "category": "soup",
+      "cuisine": "русская",
+      "description": "Лёгкий куриный суп с домашней лапшой",
+      "tags": ["traditional", "stores_well_2_3_days", "light_digestion", "pregnancy_1_trimester_ok"],
+      "ingredients": ["курица", "морковь", "лук", "лапша домашняя или магазинная", "зелень", "яйцо"],
+      "nutrition_per_100g": { "kcal": 60, "protein": 5.0, "fat": 2.0, "carbs": 5.0 },
+      "serving_size_g": 300,
+      "prep_time_minutes": 60,
+      "storage_days": 3,
+      "freezable": true,
+      "adaptations": {
+        "gestational_diabetes": "лапша из цельнозерновой муки, меньше порция",
+        "pregnancy_1_trimester": "идеально при токсикозе"
+      }
+    },
+    {
+      "id": "soup_004",
+      "name": "Суп с галушками",
+      "category": "soup",
+      "cuisine": "славянская",
+      "description": "Наваристый куриный суп с мучными галушками",
+      "tags": ["traditional", "stores_well_2_3_days", "ukrainian"],
+      "ingredients": ["курица", "картофель", "морковь", "лук", "мука", "яйцо", "зелень"],
+      "nutrition_per_100g": { "kcal": 70, "protein": 4.5, "fat": 2.5, "carbs": 8.0 },
+      "serving_size_g": 300,
+      "prep_time_minutes": 65,
+      "storage_days": 3,
+      "freezable": true,
+      "adaptations": {
+        "gestational_diabetes": "галушки из цельнозерновой муки, меньше порция",
+        "pregnancy_3_trimester": "уменьшить порцию до 200 мл"
+      }
+    },
+    {
+      "id": "soup_005",
+      "name": "Гороховый суп",
+      "category": "soup",
+      "cuisine": "русская",
+      "description": "Суп из сушёного гороха на копчёных рёбрах или говядине",
+      "tags": ["traditional", "stores_well_3_4_days", "high_fiber", "iron_rich", "freezable"],
+      "ingredients": ["горох сухой", "копчёные рёбра или говядина", "картофель", "морковь", "лук", "чеснок"],
+      "nutrition_per_100g": { "kcal": 80, "protein": 5.5, "fat": 3.0, "carbs": 9.0 },
+      "serving_size_g": 300,
+      "prep_time_minutes": 120,
+      "storage_days": 4,
+      "freezable": true,
+      "adaptations": {
+        "gestational_diabetes": "без копчёностей, без картофеля",
+        "low_hemoglobin": "на говядине"
+      }
+    },
+    {
+      "id": "soup_006",
+      "name": "Солянка сборная мясная",
+      "category": "soup",
+      "cuisine": "русская",
+      "description": "Густой суп с несколькими видами мяса, солёными огурцами",
+      "tags": ["traditional", "stores_well_3_4_days", "protein_rich", "freezable"],
+      "ingredients": ["говядина", "курица", "колбаса/сосиски (по желанию)", "солёные огурцы", "томатная паста", "оливки", "лимон", "сметана"],
+      "nutrition_per_100g": { "kcal": 85, "protein": 6.0, "fat": 4.5, "carbs": 4.0 },
+      "serving_size_g": 300,
+      "prep_time_minutes": 80,
+      "storage_days": 4,
+      "freezable": true,
+      "adaptations": {
+        "gestational_diabetes": "без колбасы, без картофеля, уменьшить порцию",
+        "pregnancy_3_trimester": "без копчёностей, меньше соли"
+      }
+    },
+    {
+      "id": "soup_007",
+      "name": "Суп-пюре из брокколи",
+      "category": "soup_puree",
+      "cuisine": "европейская",
+      "description": "Нежный крем-суп из брокколи со сливками",
+      "tags": ["light_digestion", "quick_under_30min", "low_calorie", "pregnancy_1_trimester_ok", "pregnancy_3_trimester_ok"],
+      "ingredients": ["брокколи", "картофель", "лук", "сливки 10%", "чеснок", "мускатный орех"],
+      "nutrition_per_100g": { "kcal": 50, "protein": 3.0, "fat": 2.5, "carbs": 4.5 },
+      "serving_size_g": 250,
+      "prep_time_minutes": 25,
+      "storage_days": 2,
+      "freezable": true,
+      "adaptations": {
+        "gestational_diabetes": "без картофеля, на овощном бульоне"
+      }
+    },
+    {
+      "id": "soup_008",
+      "name": "Суп-пюре из тыквы",
+      "category": "soup_puree",
+      "cuisine": "европейская",
+      "description": "Яркий, согревающий суп из тыквы с семечками",
+      "tags": ["light_digestion", "quick_under_30min", "vitamin_rich", "pregnancy_1_trimester_ok"],
+      "ingredients": ["тыква", "морковь", "лук", "сливки 10%", "семечки тыквенные", "имбирь"],
+      "nutrition_per_100g": { "kcal": 45, "protein": 2.0, "fat": 2.0, "carbs": 5.0 },
+      "serving_size_g": 250,
+      "prep_time_minutes": 30,
+      "storage_days": 2,
+      "freezable": true,
+      "adaptations": {
+        "gestational_diabetes": "без сливок, меньше порция"
+      }
+    },
+    {
+      "id": "soup_009",
+      "name": "Чечевичный суп",
+      "category": "soup",
+      "cuisine": "европейская",
+      "description": "Сытный суп из красной или зелёной чечевицы",
+      "tags": ["stores_well_3_4_days", "iron_rich", "high_fiber", "vegetarian", "freezable"],
+      "ingredients": ["чечевица красная", "морковь", "лук", "чеснок", "томатная паста", "зелень"],
+      "nutrition_per_100g": { "kcal": 70, "protein": 5.0, "fat": 1.5, "carbs": 10.0 },
+      "serving_size_g": 300,
+      "prep_time_minutes": 40,
+      "storage_days": 4,
+      "freezable": true,
+      "adaptations": {
+        "low_hemoglobin": "+ сок лимона для усвоения железа",
+        "gestational_diabetes": "без картофеля"
+      }
+    },
+    {
+      "id": "soup_010",
+      "name": "Грибной суп",
+      "category": "soup",
+      "cuisine": "русская",
+      "description": "Суп из шампиньонов или лесных грибов",
+      "tags": ["vegetarian", "stores_well_2_3_days", "light_digestion"],
+      "ingredients": ["грибы", "картофель", "морковь", "лук", "сливки 10%", "зелень"],
+      "nutrition_per_100g": { "kcal": 55, "protein": 3.0, "fat": 2.5, "carbs": 5.0 },
+      "serving_size_g": 300,
+      "prep_time_minutes": 40,
+      "storage_days": 3,
+      "freezable": true,
+      "adaptations": {
+        "gestational_diabetes": "без картофеля, меньше сливок",
+        "pregnancy_1_trimester": "идеально при токсикозе"
+      }
+    },
+    {
+      "id": "main_001",
+      "name": "Котлеты куриные",
+      "category": "main_course",
+      "cuisine": "русская",
+      "description": "Нежные котлеты из куриного филе, можно с добавлением кабачка для сочности",
+      "tags": ["traditional", "stores_well_2_3_days", "freezable", "high_protein", "batch_cooking"],
+      "ingredients": ["куриное филе", "лук", "яйцо", "хлеб белый или овсяные хлопья", "соль", "перец", "масло для жарки"],
+      "nutrition_per_100g": { "kcal": 180, "protein": 18, "fat": 10, "carbs": 6 },
+      "serving_size_g": 150,
+      "prep_time_minutes": 40,
+      "storage_days": 3,
+      "freezable": true,
+      "adaptations": {
+        "pregnancy_3_trimester": "запекать, а не жарить",
+        "gestational_diabetes": "без хлеба, с овсяными отрубями"
+      }
+    },
+    {
+      "id": "main_002",
+      "name": "Котлеты говяжьи",
+      "category": "main_course",
+      "cuisine": "русская",
+      "description": "Плотные, сытные котлеты из говядины",
+      "tags": ["traditional", "stores_well_2_3_days", "freezable", "iron_rich", "high_protein", "batch_cooking"],
+      "ingredients": ["говядина", "лук", "яйцо", "хлеб белый", "соль", "перец", "масло для жарки"],
+      "nutrition_per_100g": { "kcal": 200, "protein": 17, "fat": 12, "carbs": 6 },
+      "serving_size_g": 150,
+      "prep_time_minutes": 45,
+      "storage_days": 3,
+      "freezable": true,
+      "adaptations": {
+        "low_hemoglobin": "рекомендуется для поднятия ферритина",
+        "pregnancy_3_trimester": "запекать, не жарить"
+      }
+    },
+    {
+      "id": "main_003",
+      "name": "Котлеты рыбные",
+      "category": "main_course",
+      "cuisine": "русская",
+      "description": "Нежные котлеты из белой рыбы (минтай, треска, хек)",
+      "tags": ["stores_well_2_3_days", "freezable", "high_protein", "low_fat", "batch_cooking"],
+      "ingredients": ["филе белой рыбы", "лук", "яйцо", "хлеб белый", "укроп", "соль", "перец"],
+      "nutrition_per_100g": { "kcal": 140, "protein": 15, "fat": 6, "carbs": 6 },
+      "serving_size_g": 150,
+      "prep_time_minutes": 40,
+      "storage_days": 3,
+      "freezable": true,
+      "adaptations": {
+        "pregnancy_3_trimester": "запекать",
+        "gestational_diabetes": "без хлеба, с овсяными отрубями"
+      }
+    },
+    {
+      "id": "main_004",
+      "name": "Пельмени домашние",
+      "category": "main_course",
+      "cuisine": "русская",
+      "description": "Традиционные пельмени из свинины и говядины",
+      "tags": ["traditional", "stores_well_3_4_days", "freezable", "batch_cooking"],
+      "ingredients": ["мука", "яйцо", "вода", "свинина", "говядина", "лук", "соль", "перец"],
+      "nutrition_per_100g": { "kcal": 220, "protein": 12, "fat": 10, "carbs": 20 },
+      "serving_size_g": 200,
+      "prep_time_minutes": 90,
+      "storage_days": 4,
+      "freezable": true,
+      "adaptations": {
+        "gestational_diabetes": "цельнозерновая мука, меньше порция, больше овощей",
+        "pregnancy_3_trimester": "порция 150 г + салат"
+      }
+    },
+    {
+      "id": "main_005",
+      "name": "Тефтели в томатном соусе",
+      "category": "main_course",
+      "cuisine": "русская",
+      "description": "Мясные шарики в томатном соусе, можно из курицы или говядины",
+      "tags": ["stores_well_3_4_days", "freezable", "high_protein", "batch_cooking"],
+      "ingredients": ["фарш мясной", "лук", "яйцо", "рис", "томатная паста", "сметана", "соль", "перец"],
+      "nutrition_per_100g": { "kcal": 160, "protein": 12, "fat": 8, "carbs": 12 },
+      "serving_size_g": 200,
+      "prep_time_minutes": 60,
+      "storage_days": 4,
+      "freezable": true,
+      "adaptations": {
+        "gestational_diabetes": "без риса, больше овощей в соусе",
+        "pregnancy_3_trimester": "меньше соли, без жарки"
+      }
+    },
+    {
+      "id": "main_006",
+      "name": "Гуляш из говядины",
+      "category": "main_course",
+      "cuisine": "европейская",
+      "description": "Мясо, тушёное в густом соусе с паприкой",
+      "tags": ["stores_well_3_4_days", "freezable", "iron_rich", "batch_cooking"],
+      "ingredients": ["говядина", "лук", "морковь", "паприка", "томатная паста", "мука", "соль", "перец"],
+      "nutrition_per_100g": { "kcal": 150, "protein": 14, "fat": 8, "carbs": 7 },
+      "serving_size_g": 200,
+      "prep_time_minutes": 90,
+      "storage_days": 4,
+      "freezable": true,
+      "adaptations": {
+        "low_hemoglobin": "рекомендуется",
+        "gestational_diabetes": "без муки"
+      }
+    },
+    {
+      "id": "main_007",
+      "name": "Бефстроганов из курицы",
+      "category": "main_course",
+      "cuisine": "русская",
+      "description": "Курица в сливочно-сметанном соусе",
+      "tags": ["stores_well_2_3_days", "quick_under_30min", "high_protein"],
+      "ingredients": ["куриное филе", "лук", "сметана", "мука", "горчица", "соль", "перец"],
+      "nutrition_per_100g": { "kcal": 130, "protein": 14, "fat": 7, "carbs": 5 },
+      "serving_size_g": 200,
+      "prep_time_minutes": 30,
+      "storage_days": 3,
+      "freezable": true,
+      "adaptations": {
+        "pregnancy_3_trimester": "меньше сметаны",
+        "gestational_diabetes": "без муки, на сливках"
+      }
+    },
+    {
+      "id": "main_008",
+      "name": "Запечённая скумбрия",
+      "category": "main_course",
+      "cuisine": "европейская",
+      "description": "Скумбрия, запечённая с лимоном и травами",
+      "tags": ["omega_3_rich", "quick_under_30min", "batch_cooking"],
+      "ingredients": ["скумбрия", "лимон", "розмарин", "чеснок", "соль", "перец"],
+      "nutrition_per_100g": { "kcal": 190, "protein": 18, "fat": 12, "carbs": 1 },
+      "serving_size_g": 150,
+      "prep_time_minutes": 25,
+      "storage_days": 2,
+      "freezable": false,
+      "adaptations": {
+        "pregnancy_2_trimester": "источник Омега-3, обязательно",
+        "gestational_diabetes": "идеально"
+      }
+    },
+    {
+      "id": "main_009",
+      "name": "Запечённая треска",
+      "category": "main_course",
+      "cuisine": "европейская",
+      "description": "Треска, запечённая с лимоном и оливковым маслом",
+      "tags": ["quick_under_30min", "low_fat", "high_protein"],
+      "ingredients": ["треска", "лимон", "оливковое масло", "укроп", "соль", "перец"],
+      "nutrition_per_100g": { "kcal": 90, "protein": 18, "fat": 2, "carbs": 0.5 },
+      "serving_size_g": 180,
+      "prep_time_minutes": 20,
+      "storage_days": 2,
+      "freezable": false,
+      "adaptations": {
+        "pregnancy_3_trimester": "идеально",
+        "gestational_diabetes": "идеально"
+      }
+    },
+    {
+      "id": "main_010",
+      "name": "Куриная грудка с овощами в рукаве",
+      "category": "main_course",
+      "cuisine": "европейская",
+      "description": "Курица и овощи запекаются вместе, получается сочно",
+      "tags": ["batch_cooking", "stores_well_2_3_days", "high_protein"],
+      "ingredients": ["куриная грудка", "кабачок", "перец", "морковь", "лук", "оливковое масло", "специи"],
+      "nutrition_per_100g": { "kcal": 110, "protein": 15, "fat": 4, "carbs": 5 },
+      "serving_size_g": 250,
+      "prep_time_minutes": 45,
+      "storage_days": 3,
+      "freezable": true,
+      "adaptations": {
+        "pregnancy_3_trimester": "идеально, нет жарки"
+      }
+    },
+    {
+      "id": "side_001",
+      "name": "Гречка рассыпчатая",
+      "category": "side_dish",
+      "cuisine": "русская",
+      "description": "Классическая гречневая каша",
+      "tags": ["batch_cooking", "stores_well_3_4_days", "low_gi", "iron_rich", "gluten_free"],
+      "ingredients": ["гречка", "вода", "соль", "сливочное масло"],
+      "nutrition_per_100g": { "kcal": 110, "protein": 4, "fat": 3, "carbs": 18 },
+      "serving_size_g": 150,
+      "prep_time_minutes": 25,
+      "storage_days": 4,
+      "freezable": true,
+      "adaptations": {
+        "gestational_diabetes": "без масла, меньше порция"
+      }
+    },
+    {
+      "id": "side_002",
+      "name": "Киноа",
+      "category": "side_dish",
+      "cuisine": "южноамериканская",
+      "description": "Высокобелковая крупа, нейтрального вкуса",
+      "tags": ["batch_cooking", "stores_well_3_4_days", "low_gi", "high_protein", "gluten_free"],
+      "ingredients": ["киноа", "вода", "соль", "оливковое масло"],
+      "nutrition_per_100g": { "kcal": 120, "protein": 4.5, "fat": 2, "carbs": 20 },
+      "serving_size_g": 150,
+      "prep_time_minutes": 20,
+      "storage_days": 4,
+      "freezable": true,
+      "adaptations": {}
+    },
+    {
+      "id": "side_003",
+      "name": "Рис бурый",
+      "category": "side_dish",
+      "cuisine": "азиатская",
+      "description": "Цельнозерновой рис с ореховым вкусом",
+      "tags": ["batch_cooking", "stores_well_3_4_days", "low_gi", "gluten_free"],
+      "ingredients": ["рис бурый", "вода", "соль", "сливочное масло"],
+      "nutrition_per_100g": { "kcal": 130, "protein": 3, "fat": 1.5, "carbs": 26 },
+      "serving_size_g": 150,
+      "prep_time_minutes": 40,
+      "storage_days": 4,
+      "freezable": true,
+      "adaptations": {
+        "gestational_diabetes": "порция 100 г"
+      }
+    },
+    {
+      "id": "side_004",
+      "name": "Пюре картофельное",
+      "category": "side_dish",
+      "cuisine": "европейская",
+      "description": "Нежное картофельное пюре на молоке",
+      "tags": ["traditional", "batch_cooking", "stores_well_2_3_days"],
+      "ingredients": ["картофель", "молоко", "сливочное масло", "соль"],
+      "nutrition_per_100g": { "kcal": 100, "protein": 2, "fat": 4, "carbs": 14 },
+      "serving_size_g": 150,
+      "prep_time_minutes": 30,
+      "storage_days": 3,
+      "freezable": true,
+      "adaptations": {
+        "gestational_diabetes": "заменить на пюре из цветной капусты",
+        "pregnancy_3_trimester": "уменьшить порцию"
+      }
+    },
+    {
+      "id": "side_005",
+      "name": "Овощи на пару (брокколи, цветная капуста, морковь)",
+      "category": "side_dish",
+      "cuisine": "европейская",
+      "description": "Смесь овощей, приготовленных на пару",
+      "tags": ["quick_under_15min", "low_calorie", "high_fiber", "vitamin_rich"],
+      "ingredients": ["брокколи", "цветная капуста", "морковь", "соль", "оливковое масло"],
+      "nutrition_per_100g": { "kcal": 40, "protein": 2.5, "fat": 2, "carbs": 4 },
+      "serving_size_g": 200,
+      "prep_time_minutes": 15,
+      "storage_days": 2,
+      "freezable": false,
+      "adaptations": {}
+    },
+    {
+      "id": "side_006",
+      "name": "Овощи гриль (кабачок, перец, баклажан)",
+      "category": "side_dish",
+      "cuisine": "европейская",
+      "description": "Овощи, запечённые на гриле или в духовке",
+      "tags": ["quick_under_20min", "low_calorie", "high_fiber", "vitamin_rich"],
+      "ingredients": ["кабачок", "перец болгарский", "баклажан", "оливковое масло", "чеснок", "розмарин"],
+      "nutrition_per_100g": { "kcal": 50, "protein": 1.5, "fat": 3, "carbs": 5 },
+      "serving_size_g": 200,
+      "prep_time_minutes": 20,
+      "storage_days": 2,
+      "freezable": false,
+      "adaptations": {}
+    },
+    {
+      "id": "side_007",
+      "name": "Тушёная капуста",
+      "category": "side_dish",
+      "cuisine": "русская",
+      "description": "Капуста, тушёная с морковью и луком",
+      "tags": ["traditional", "batch_cooking", "stores_well_3_4_days", "high_fiber", "freezable"],
+      "ingredients": ["капуста", "морковь", "лук", "томатная паста", "масло растительное", "соль", "перец"],
+      "nutrition_per_100g": { "kcal": 60, "protein": 2, "fat": 3, "carbs": 7 },
+      "serving_size_g": 200,
+      "prep_time_minutes": 40,
+      "storage_days": 4,
+      "freezable": true,
+      "adaptations": {
+        "gestational_diabetes": "без томатной пасты",
+        "pregnancy_3_trimester": "меньше соли"
+      }
+    },
+    {
+      "id": "breakfast_001",
+      "name": "Овсяная каша на молоке",
+      "category": "breakfast",
+      "cuisine": "европейская",
+      "description": "Классический завтрак из овсяных хлопьев",
+      "tags": ["quick_under_10min", "batch_cooking", "high_fiber"],
+      "ingredients": ["овсяные хлопья", "молоко", "вода", "соль", "сахар или мёд", "ягоды"],
+      "nutrition_per_100g": { "kcal": 90, "protein": 4, "fat": 3, "carbs": 13 },
+      "serving_size_g": 200,
+      "prep_time_minutes": 10,
+      "storage_days": 2,
+      "freezable": false,
+      "adaptations": {
+        "gestational_diabetes": "на воде, без сахара, с белком (яйцо)"
+      }
+    },
+    {
+      "id": "breakfast_002",
+      "name": "Творожная запеканка",
+      "category": "breakfast",
+      "cuisine": "русская",
+      "description": "Запеканка из творога с яйцом, можно с изюмом",
+      "tags": ["batch_cooking", "stores_well_2_3_days", "high_protein", "calcium_rich"],
+      "ingredients": ["творог", "яйцо", "манная крупа", "сахар", "ваниль", "изюм"],
+      "nutrition_per_100g": { "kcal": 160, "protein": 12, "fat": 6, "carbs": 14 },
+      "serving_size_g": 150,
+      "prep_time_minutes": 45,
+      "storage_days": 3,
+      "freezable": true,
+      "adaptations": {
+        "gestational_diabetes": "без сахара, на стевии"
+      }
+    },
+    {
+      "id": "breakfast_003",
+      "name": "Сырники",
+      "category": "breakfast",
+      "cuisine": "русская",
+      "description": "Творожные оладьи, можно запечь в духовке",
+      "tags": ["batch_cooking", "freezable", "high_protein", "calcium_rich"],
+      "ingredients": ["творог", "яйцо", "мука", "сахар", "соль", "масло для жарки"],
+      "nutrition_per_100g": { "kcal": 200, "protein": 14, "fat": 9, "carbs": 16 },
+      "serving_size_g": 120,
+      "prep_time_minutes": 30,
+      "storage_days": 3,
+      "freezable": true,
+      "adaptations": {
+        "pregnancy_3_trimester": "запекать в духовке",
+        "gestational_diabetes": "без сахара, мука цельнозерновая"
+      }
+    },
+    {
+      "id": "breakfast_004",
+      "name": "Омлет с сыром и зеленью",
+      "category": "breakfast",
+      "cuisine": "европейская",
+      "description": "Пышный омлет с твёрдым сыром и укропом",
+      "tags": ["quick_under_10min", "high_protein", "calcium_rich", "low_carb"],
+      "ingredients": ["яйца", "молоко", "сыр твёрдый", "укроп", "соль", "перец", "масло сливочное"],
+      "nutrition_per_100g": { "kcal": 180, "protein": 12, "fat": 14, "carbs": 2 },
+      "serving_size_g": 150,
+      "prep_time_minutes": 10,
+      "storage_days": 1,
+      "freezable": false,
+      "adaptations": {
+        "gestational_diabetes": "идеально"
+      }
+    },
+    {
+      "id": "breakfast_005",
+      "name": "Яйца пашот",
+      "category": "breakfast",
+      "cuisine": "европейская",
+      "description": "Яйца, сваренные без скорлупы, с жидким желтком",
+      "tags": ["quick_under_10min", "high_protein", "low_carb"],
+      "ingredients": ["яйца", "уксус", "соль"],
+      "nutrition_per_100g": { "kcal": 140, "protein": 13, "fat": 10, "carbs": 0.5 },
+      "serving_size_g": 100,
+      "prep_time_minutes": 8,
+      "storage_days": 1,
+      "freezable": false,
+      "adaptations": {
+        "pregnancy_1_trimester": "убедиться в свежести яиц"
+      }
+    },
+    {
+      "id": "breakfast_006",
+      "name": "Запеканка рисовая с творогом",
+      "category": "breakfast",
+      "cuisine": "русская",
+      "description": "Сладкая запеканка из риса и творога",
+      "tags": ["batch_cooking", "stores_well_2_3_days", "calcium_rich"],
+      "ingredients": ["рис", "творог", "яйцо", "сахар", "изюм", "ваниль"],
+      "nutrition_per_100g": { "kcal": 150, "protein": 8, "fat": 5, "carbs": 18 },
+      "serving_size_g": 150,
+      "prep_time_minutes": 50,
+      "storage_days": 3,
+      "freezable": true,
+      "adaptations": {
+        "gestational_diabetes": "без сахара"
+      }
+    },
+    {
+      "id": "snack_001",
+      "name": "Йогурт греческий с ягодами",
+      "category": "snack",
+      "cuisine": "европейская",
+      "description": "Густой йогурт с замороженными или свежими ягодами",
+      "tags": ["quick_under_5min", "high_protein", "calcium_rich"],
+      "ingredients": ["йогурт греческий", "ягоды замороженные или свежие", "мёд (опционально)"],
+      "nutrition_per_100g": { "kcal": 80, "protein": 6, "fat": 4, "carbs": 6 },
+      "serving_size_g": 150,
+      "prep_time_minutes": 3,
+      "storage_days": 1,
+      "freezable": false,
+      "adaptations": {
+        "gestational_diabetes": "без мёда"
+      }
+    },
+    {
+      "id": "snack_002",
+      "name": "Творог 5% с зеленью",
+      "category": "snack",
+      "cuisine": "русская",
+      "description": "Творог с мелко рубленым укропом и петрушкой",
+      "tags": ["quick_under_5min", "high_protein", "calcium_rich", "low_carb"],
+      "ingredients": ["творог", "укроп", "петрушка", "соль", "перец"],
+      "nutrition_per_100g": { "kcal": 120, "protein": 14, "fat": 6, "carbs": 3 },
+      "serving_size_g": 120,
+      "prep_time_minutes": 3,
+      "storage_days": 1,
+      "freezable": false,
+      "adaptations": {}
+    },
+    {
+      "id": "snack_003",
+      "name": "Овощные палочки с хумусом",
+      "category": "snack",
+      "cuisine": "ближневосточная",
+      "description": "Морковь, огурец, перец нарезанные палочками с хумусом",
+      "tags": ["quick_under_10min", "high_fiber", "vitamin_rich", "vegetarian"],
+      "ingredients": ["морковь", "огурец", "перец болгарский", "хумус готовый"],
+      "nutrition_per_100g": { "kcal": 80, "protein": 3, "fat": 4, "carbs": 8 },
+      "serving_size_g": 150,
+      "prep_time_minutes": 7,
+      "storage_days": 1,
+      "freezable": false,
+      "adaptations": {}
+    },
+    {
+      "id": "snack_004",
+      "name": "Яблоко с арахисовой пастой",
+      "category": "snack",
+      "cuisine": "европейская",
+      "description": "Дольки яблока с натуральной арахисовой пастой",
+      "tags": ["quick_under_5min", "high_fiber"],
+      "ingredients": ["яблоко", "арахисовая паста без сахара"],
+      "nutrition_per_100g": { "kcal": 150, "protein": 4, "fat": 8, "carbs": 16 },
+      "serving_size_g": 100,
+      "prep_time_minutes": 3,
+      "storage_days": 1,
+      "freezable": false,
+      "adaptations": {
+        "gestational_diabetes": "уменьшить порцию"
+      }
+    },
+    {
+      "id": "snack_005",
+      "name": "Горсть орехов и сухофруктов",
+      "category": "snack",
+      "cuisine": "европейская",
+      "description": "Смесь миндаля, грецких орехов, кураги или фиников",
+      "tags": ["quick_under_2min", "omega_3_rich", "high_fiber"],
+      "ingredients": ["миндаль", "грецкие орехи", "курага", "финики"],
+      "nutrition_per_100g": { "kcal": 450, "protein": 12, "fat": 30, "carbs": 35 },
+      "serving_size_g": 30,
+      "prep_time_minutes": 1,
+      "storage_days": 14,
+      "freezable": false,
+      "adaptations": {
+        "gestational_diabetes": "только орехи без сухофруктов"
+      }
+    },
+    {
+      "id": "snack_006",
+      "name": "Сырные палочки из лаваша",
+      "category": "snack",
+      "cuisine": "европейская",
+      "description": "Лаваш с сыром, запечённый в духовке до хруста",
+      "tags": ["quick_under_15min", "calcium_rich"],
+      "ingredients": ["лаваш тонкий", "сыр твёрдый", "яйцо для смазки"],
+      "nutrition_per_100g": { "kcal": 280, "protein": 14, "fat": 15, "carbs": 22 },
+      "serving_size_g": 80,
+      "prep_time_minutes": 12,
+      "storage_days": 2,
+      "freezable": false,
+      "adaptations": {
+        "pregnancy_3_trimester": "умеренно",
+        "gestational_diabetes": "цельнозерновой лаваш"
+      }
+    },
+    {
+      "id": "special_001",
+      "name": "Печень говяжья тушёная с луком",
+      "category": "special",
+      "cuisine": "русская",
+      "description": "Блюдо с высоким содержанием железа для поднятия гемоглобина",
+      "tags": ["iron_rich", "stores_well_2_3_days", "freezable"],
+      "ingredients": ["печень говяжья", "лук", "морковь", "сметана", "соль", "перец"],
+      "nutrition_per_100g": { "kcal": 160, "protein": 17, "fat": 8, "carbs": 6 },
+      "serving_size_g": 150,
+      "prep_time_minutes": 30,
+      "storage_days": 3,
+      "freezable": true,
+      "adaptations": {
+        "low_hemoglobin": "рекомендуется 2 раза в неделю"
+      }
+    },
+    {
+      "id": "special_002",
+      "name": "Салат из свёклы с черносливом и орехами",
+      "category": "salad",
+      "cuisine": "русская",
+      "description": "Салат для улучшения перистальтики и поднятия железа",
+      "tags": ["iron_rich", "high_fiber", "vitamin_rich"],
+      "ingredients": ["свёкла", "чернослив", "грецкие орехи", "сметана или йогурт"],
+      "nutrition_per_100g": { "kcal": 120, "protein": 3, "fat": 6, "carbs": 14 },
+      "serving_size_g": 150,
+      "prep_time_minutes": 20,
+      "storage_days": 2,
+      "freezable": false,
+      "adaptations": {
+        "low_hemoglobin": "рекомендуется"
+      }
+    },
+    {
+      "id": "special_003",
+      "name": "Лосось запечённый с лимоном",
+      "category": "main_course",
+      "cuisine": "европейская",
+      "description": "Жирная рыба для Омега-3 и витамина D",
+      "tags": ["omega_3_rich", "quick_under_25min", "high_protein"],
+      "ingredients": ["лосось", "лимон", "оливковое масло", "укроп", "соль", "перец"],
+      "nutrition_per_100g": { "kcal": 200, "protein": 20, "fat": 13, "carbs": 0.5 },
+      "serving_size_g": 150,
+      "prep_time_minutes": 20,
+      "storage_days": 2,
+      "freezable": false,
+      "adaptations": {
+        "pregnancy_2_trimester": "рекомендуется 2 раза в неделю"
+      }
+    },
+    {
+      "id": "special_004",
+      "name": "Тофу с овощами в азиатском стиле",
+      "category": "main_course",
+      "cuisine": "азиатская",
+      "description": "Вегетарианское блюдо с высоким содержанием белка",
+      "tags": ["vegetarian", "high_protein", "quick_under_20min"],
+      "ingredients": ["тофу твёрдый", "перец болгарский", "кабачок", "соевый соус", "имбирь", "чеснок"],
+      "nutrition_per_100g": { "kcal": 110, "protein": 8, "fat": 6, "carbs": 6 },
+      "serving_size_g": 200,
+      "prep_time_minutes": 20,
+      "storage_days": 2,
+      "freezable": false,
+      "adaptations": {
+        "gestational_diabetes": "без соевого соуса с сахаром"
+      }
+    },
+    {
+      "id": "salad_001",
+      "name": "Салат из свежих овощей",
+      "category": "salad",
+      "cuisine": "европейская",
+      "description": "Огурцы, помидоры, перец, зелень",
+      "tags": ["quick_under_10min", "low_calorie", "high_fiber", "vitamin_rich"],
+      "ingredients": ["огурцы", "помидоры", "перец болгарский", "зелень", "оливковое масло", "сок лимона", "соль"],
+      "nutrition_per_100g": { "kcal": 50, "protein": 1.5, "fat": 4, "carbs": 3 },
+      "serving_size_g": 200,
+      "prep_time_minutes": 8,
+      "storage_days": 1,
+      "freezable": false,
+      "adaptations": {}
+    },
+    {
+      "id": "salad_002",
+      "name": "Греческий салат",
+      "category": "salad",
+      "cuisine": "греческая",
+      "description": "Помидоры, огурцы, перец, фета, маслины",
+      "tags": ["quick_under_15min", "calcium_rich", "vitamin_rich"],
+      "ingredients": ["помидоры", "огурцы", "перец", "фета", "маслины", "оливковое масло", "орегано"],
+      "nutrition_per_100g": { "kcal": 110, "protein": 4, "fat": 9, "carbs": 4 },
+      "serving_size_g": 200,
+      "prep_time_minutes": 12,
+      "storage_days": 1,
+      "freezable": false,
+      "adaptations": {
+        "gestational_diabetes": "без маслин"
+      }
+    },
+    {
+      "id": "salad_003",
+      "name": "Салат с тунцом и яйцом",
+      "category": "salad",
+      "cuisine": "европейская",
+      "description": "Листья салата, тунец, яйцо, огурец, оливки",
+      "tags": ["quick_under_15min", "high_protein", "omega_3_rich"],
+      "ingredients": ["тунец в собственном соку", "яйца варёные", "листья салата", "огурец", "оливки", "оливковое масло"],
+      "nutrition_per_100g": { "kcal": 130, "protein": 12, "fat": 8, "carbs": 2 },
+      "serving_size_g": 200,
+      "prep_time_minutes": 10,
+      "storage_days": 1,
+      "freezable": false,
+      "adaptations": {
+        "pregnancy_2_trimester": "рекомендуется"
+      }
+    },
+    {
+      "id": "drink_001",
+      "name": "Компот из сухофруктов",
+      "category": "drink",
+      "cuisine": "русская",
+      "description": "Напиток из сушёных яблок, груш, чернослива",
+      "tags": ["traditional", "batch_cooking", "stores_well_3_4_days"],
+      "ingredients": ["сухофрукты", "вода", "сахар (опционально)"],
+      "nutrition_per_100g": { "kcal": 40, "protein": 0.5, "fat": 0, "carbs": 10 },
+      "serving_size_g": 200,
+      "prep_time_minutes": 30,
+      "storage_days": 4,
+      "freezable": false,
+      "adaptations": {
+        "gestational_diabetes": "без сахара"
+      }
+    },
+    {
+      "id": "drink_002",
+      "name": "Морс клюквенный",
+      "category": "drink",
+      "cuisine": "русская",
+      "description": "Освежающий напиток из клюквы",
+      "tags": ["vitamin_rich", "quick_under_20min"],
+      "ingredients": ["клюква", "вода", "сахар или мёд"],
+      "nutrition_per_100g": { "kcal": 35, "protein": 0.2, "fat": 0, "carbs": 8 },
+      "serving_size_g": 200,
+      "prep_time_minutes": 20,
+      "storage_days": 3,
+      "freezable": false,
+      "adaptations": {
+        "gestational_diabetes": "без сахара"
+      }
+    }
+  ],
+  "weekly_plan_templates": {
+    "default": {
+      "batch_cooking_day": "sunday",
+      "batch_meals_count": 3,
+      "preferred_batch_tags": ["batch_cooking", "stores_well_3_4_days", "freezable"],
+      "rotation_rules": {
+        "same_meal_interval_days": 10,
+        "traditional_meal_interval_days": 5
+      }
+    },
+    "no_time": {
+      "batch_cooking_day": null,
+      "prefer_tags": ["quick_under_30min", "quick_under_15min", "no_cook"],
+      "meal_options": ["quick", "fridge"]
+    },
+    "love_cooking": {
+      "batch_cooking_day": "sunday",
+      "prefer_tags": ["traditional", "batch_cooking"],
+      "extra_meal": "full_cooking",
+      "weekend_cooking": true
+    }
+  },
+  "user_preferences_defaults": {
+    "family_size": 1,
+    "cooking_time_available": "medium",
+    "dietary_restrictions": [],
+    "disliked_ingredients": [],
+    "preferred_cuisine": "русская",
+    "batch_cooking_enabled": true
+  },
+  "seasonal": {
+    "winter": ["Борщ классический", "Щи из свежей капусты", "Гороховый суп", "Солянка сборная мясная"],
+    "spring": ["Суп-пюре из брокколи", "Куриная лапша (суп)", "Салат из свежих овощей", "Щи из свежей капусты"],
+    "summer": ["Суп-пюре из тыквы", "Окрошка", "Свекольник", "Греческий салат", "Овощи гриль"],
+    "autumn": ["Суп-пюре из тыквы", "Борщ классический", "Грибной суп", "Запечённая скумбрия"]
+  },
+  "meal_combination_rules": {
+    "max_repetition_per_week": 3,
+    "min_vegetables_per_day": 2,
+    "protein_per_meal_min_g": 20,
+    "recommended_water_ml": 1800
+  }
+}
